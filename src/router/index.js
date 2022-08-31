@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Navbar from '@/components/Navbar'
 import About from '../Views/About'
 import Config from '../Views/Config'
 import Home from '../Views/Home'
@@ -9,11 +8,6 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {
-      path: '/',
-      name: 'Navbar',
-      component: Navbar
-    },
     {
       path: '/about',
       name: 'About',
@@ -25,7 +19,7 @@ export default new Router({
       component: Config
     },
     {
-      path: '/home',
+      path: '/',
       name: 'Home',
       component: Home
     }

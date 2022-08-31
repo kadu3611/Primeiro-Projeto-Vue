@@ -1,8 +1,8 @@
 <template>
-<div>
+<div class='center'>
 A forma mais simples de testar Vue.js é usando o exemplo de Olá Mundo no CodeSandbox. Sinta-se à vontade para abrí-lo em outra aba e acompanhar conosco durante alguns exemplos básicos.
 <div>
-<router-link to="/"> Voltar </router-link>
+<router-link to="/config"> Próximo </router-link>
 </div>
 </div>
 </template>
@@ -17,3 +17,4 @@ export default {
   }
 }
 </script>
+<style src="./style.css" scoped />
